@@ -14,3 +14,25 @@
 # list to show that its order has been changed
 # •	 Use sort() to change your list so it’s stored in reverse alphabetical order
 # Print the list to show that its order has changed
+
+####################################################################
+
+locations = ["izmir" , "ankara" , "malatya" , "adana", "istanbul"]
+
+locations_sorted = sorted(locations)
+print(locations)
+
+locations_sorted.sort(reverse = True)
+print(locations)
+
+locations_sorted.reverse()
+print(locations)
+
+locations.reverse()
+print(locations)
+
+locations.reverse()
+print(locations)
+
+locations.sort(reverse = True)
+print(locations)
