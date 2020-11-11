@@ -24,3 +24,21 @@
     # •	 Add a line at the end of your program stating what these animals have in
         # common You could print a sentence such as Any of these animals would
         # make a great pet!
+
+
+################## P İ Z Z A #####################
+pizza_list = ["margarita", "pepperoni", "cheddar"]
+
+for pizza in pizza_list:
+    print (pizza + " is great" + ". I love it so much.")
+
+
+print("Me and my best friend Cihangir, we love pizza so much, the best pizza is margarita\n")
+
+
+################# A N İ M A L S ###################
+animal_list = ["dog", "cat", "hamster"]
+for animal in animal_list:
+    print ("A " + animal + " is very cute")
+
+print ("These animals would make great pets!!!")
