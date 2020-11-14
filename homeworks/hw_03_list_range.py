@@ -24,3 +24,27 @@
 
 # 4-9. Cube Comprehension: Use a list comprehension to generate a list of the
 # first 10 cubes
+
+for number in range(1,20):
+    print(number)
+
+numbers = list(range(1,1000001))
+for number_01 in numbers:
+    print(number_01)
+
+min = min(numbers)
+max = max(numbers)
+sum = sum(numbers)
+print(min, max, sum)
+
+
+odd_list = list(range(1,20,2))
+for odd_number in odd_list:
+    print(odd_number)
+
+triple_list = list(range(3,20,3))
+for triple_number in triple_list:
+    print(triple_number)
+
+
+
