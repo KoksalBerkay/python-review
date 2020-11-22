@@ -25,3 +25,32 @@
 #           pizzas are:, and then use a for loop to print the first list Print the message,
 #           My friend’s favorite pizzas are:, and then use a for loop to print the second list
 #           Make sure each new pizza is stored in the appropriate list
+
+
+# 4-10
+pizza_list = ["margarita", "pepperoni", "cheddar", "bumbum", "tatuş", "kaşarlı", "vegan"]
+
+first_three = pizza_list[0:3]
+print ("The first three items in the list are: ")
+print (first_three)
+
+middle_three = pizza_list[2:5]
+print ("Three items from the middle of list are: ")
+print (middle_three)
+
+last_three = pizza_list[-3:]
+print ("The last three items are in the list are: ")
+print (last_three)
+
+
+# 4-11
+friend_pizzas = pizza_list
+pizza_list.append("senin kafan")
+friend_pizzas.append("ayak")
+
+for pizza in friend_pizzas:
+    print(pizza)
+
+
+for other_pizza in pizza_list:
+    print(other_pizza)
