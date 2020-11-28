@@ -30,3 +30,17 @@ for stone in stones[3:]:
 new_list = stones[3:]
 for stone in new_list:
     print(stone)
+
+pizza_list = ["margarita" , "pepperoni" , "cheddar", "bumbum", "ayak"]
+
+# the first method:
+new_list_01 = pizza_list.copy()
+
+# the second method:
+new_list_02 = pizza_list[:]
+
+# the third method:
+new_list_03 = list(pizza_list)
+
+# the fourth method (cloning):
+new_list_04 = pizza_list
