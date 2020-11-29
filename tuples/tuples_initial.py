@@ -17,3 +17,9 @@ for number in numbers_t:
 new_tuple = numbers_t[:]
 
 new_list = list(numbers_t)
+
+# numbers_t.append(9) You can't use append() in tuples.
+# print(numbers_t)
+
+# del numbers_t[1]  You can't delete item in tuples.
+# print(numbers_t)
