@@ -5,3 +5,26 @@
 # your program should include the tax amount, the tip amount, and the grand total for
 # the meal including both the tax and the tip. Format the output so that all of the values
 # are displayed using two decimal places and € currency.
+
+
+while True:
+    try:
+        cost_meal = float(input ("How much did the meal cost?(!!in euros pls!!)"))
+        break
+
+    except ValueError:
+        cost_meal = input ("please give a number!(!!in euros pls!!)")
+        continue
+
+tax = cost_meal * 8 / 100
+tax = ("%.2f" % tax)
+
+tip = cost_meal * 18 / 100
+tip = ("%.2f" % tip)
+
+total = cost_meal + float(tax) + float(tip)
+total = ("%.2f" % total)
+
+print ("Tax: €", tax)
+print ("Tip: €", tip)
+print ("Total: € ", total)
