@@ -13,7 +13,7 @@ while True:
         break
 
     except ValueError:
-        cost_meal = input ("please give a number!(!!in euros pls!!)")
+        print ("please give a number!(!!in euros pls!!)")
         continue
 
 tax = cost_meal * 8 / 100
