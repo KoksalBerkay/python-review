@@ -57,12 +57,12 @@ print("Your new balance after one year is:",amount_of_money_2,"euros")
 two_years_after = amount_of_money_2 * interest_per_year
 amount_of_money_3 = amount_of_money_2 + two_years_after
 amount_of_money_3 = float("%.2f" % amount_of_money_3)
-print("Your new balance after one year is:",amount_of_money_3,"euros")
+print("Your new balance after two year is:",amount_of_money_3,"euros")
 
 three_years_after = amount_of_money_3 * interest_per_year
 amount_of_money_4  = amount_of_money_3 + three_years_after
 amount_of_money_4 = float("%.2f" % amount_of_money_4)
-print("Your new balance after one year is:",amount_of_money_4,"euros")
+print("Your new balance after three year is:",amount_of_money_4,"euros")
 
 
 
