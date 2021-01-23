@@ -39,10 +39,18 @@ value = []
 The_word = input("Please write the sentence or word in capitals.")
 
 for letter in The_word:
+    if letter == " ":
+        value.append(" ")
+        continue
+
     if letter not in Morse_code:
         print('Data not formatted properly')
         break
-    else:
-        print(Morse_code[letter], end = ' ')
 
+    else:
+        value.append(Morse_code[letter])
+        # print(Morse_code[letter], end = ' ')
+
+string_value = " ".join(value)
+print(string_value)
     
