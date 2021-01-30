@@ -31,10 +31,8 @@ for letter in the_word:
         if letter == item:
             list_boi.append(dict_scrabble[item])
 
-number_boi = 0
-
 for value in list_boi:
-    number_boi = value + number_boi
+    total_point = value + total_point
 
-print("Your Score :", number_boi)
+print("Your Score :", total_point)
 
