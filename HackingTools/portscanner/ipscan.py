@@ -1,3 +1,4 @@
 import portscanner
 
-ip = "192.168.1.1"
+ip = input("[+] Write target IP: ")
+portscanner.scan(ip)
