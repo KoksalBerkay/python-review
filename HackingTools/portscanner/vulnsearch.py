@@ -9,7 +9,6 @@ def get_id(keyword):
     data = resp.json()
 
     count = 0
-    list_of_vulns = []
     total_results = data['totalResults']
     f = open('vulns.txt', 'a')
 
@@ -17,10 +16,6 @@ def get_id(keyword):
         f.write("{0} - {1}".format(data['result']['CVE_Items'][count]['cve']['CVE_data_meta']['ID'], data['result']['CVE_Items'][count]['cve']['description']['description_data'][0]['value']))
         f.write('\n')
         count += 1
-
-    for i in list_of_vulns:
-        print(i)
-        print('\n')
 
 key = input("[+] Type your open port banner to search exploits: ")
 get_id(key)
