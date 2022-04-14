@@ -96,7 +96,7 @@ print(array1[:,-1])
 #### Shape Manipulation #####
 array = np.array([[1,2,3],[4,5,6],[7,8,9]])
 
-flatten
+# flatten
 a = array.ravel() # [1,2,3],[4,5,6],[7,8,9] > [1 2 3 4 5 6 7 8 9]
 print(a)
 
