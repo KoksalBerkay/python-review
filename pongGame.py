@@ -92,7 +92,7 @@ opponent_score = 0
 game_font = pg.font.Font("freesansbold.ttf",32)
 
 # Score timer
-score_time = None
+score_time = True
 
 while True:
     for event in pg.event.get():
