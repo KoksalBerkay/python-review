@@ -136,3 +136,24 @@ print(array3)
 
 array4 = np.hstack((array1,array2))
 print(array4)
+
+
+###### Convert and Copy ######
+
+liste = [1,2,3,4] # List
+array = np.array(liste) # np.array
+
+liste2 = list(array) # convert array to list
+
+a = np.array([1,2,3])
+
+b = a
+b[0] = 5
+c = a
+
+d = np.array([1,2,3])
+
+e = d.copy()
+
+f = d.copy()
+
