@@ -32,7 +32,7 @@ def generate_ascii_letters():
 cap = cv2.VideoCapture(1) # Change the paramter to switch cameras
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-cap.set(cv2.CAP_PROP_BUFFERSIZE, 0.1)
+cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)
 images = generate_ascii_letters()
 
 while True:
